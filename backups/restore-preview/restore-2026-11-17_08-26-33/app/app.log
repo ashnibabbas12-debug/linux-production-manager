@@ -1,0 +1,12 @@
+2026-11-16 10:00:00 INFO Application started
+2026-11-16 10:01:00 INFO Database connected
+2026-11-16 10:02:00 WARNING High memory usage detected
+2026-11-16 10:03:00 ERROR Database connection timeout
+2026-11-16 10:04:00 INFO User login successful
+2026-11-16 10:05:00 ERROR Payment service unavailable
+2026-11-16 10:06:00 INFO Application health check passed
+2026-11-16 10:07:00 WARNING Disk usage approaching threshold
+2026-11-16 10:08:00 ERROR Failed to process request
+2026-11-16 10:09:00 INFO Application running normally
+2026-11-16 11:00:00 ERROR Server connection failed
+2026-11-16 11:00:00 ERROR Server connection failed

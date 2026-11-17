@@ -1,0 +1,63 @@
+================================================
+         LINUX PRODUCTION MANAGER
+             SYSTEM HEALTH REPORT
+================================================
+
+Generated On : Tue Nov 17 18:13:29 UTC 2026
+Hostname     : ip-10-0-14-178
+Operating OS : Ubuntu 26.04.1 LTS
+Kernel       : 7.0.0-1016-aws
+Architecture : x86_64
+
+--------------- SYSTEM UPTIME ----------------
+ 18:13:29 up 10:27,  6 users,  load average: 0.25, 0.13, 0.10
+
+--------------- CPU INFORMATION --------------
+CPU Cores: 1
+CPU Model:
+ Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+Load Average:
+0.25 0.13 0.10 1/174 16962
+
+--------------- MEMORY USAGE -----------------
+               total        used        free      shared  buff/cache   available
+Mem:           951Mi       374Mi       143Mi       1.9Mi       569Mi       577Mi
+Swap:             0B          0B          0B
+
+--------------- DISK USAGE -------------------
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.7G  2.8G  3.9G  42% /
+tmpfs           476M     0  476M   0% /dev/shm
+tmpfs           191M  948K  190M   1% /run
+tmpfs           476M     0  476M   0% /tmp
+/dev/xvda13     989M  166M  756M  19% /boot
+/dev/xvda15     105M  6.3M   99M   7% /boot/efi
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+none            1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyS0.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+tmpfs            96M  8.0K   96M   1% /run/user/1000
+
+--------------- TOP PROCESSES ----------------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        2415  0.0  3.8 1889360 37184 ?       Ssl  08:01   0:01 /usr/lib/snapd/snapd
+root       15371  0.0  2.7 1881288 27032 ?       Sl   15:00   0:02 /snap/amazon-ssm-agent/14082/ssm-agent-worker
+root         601  0.0  2.4  46828 23412 ?        Ss   07:46   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         685  0.0  2.3 126232 22728 ?        Ssl  07:46   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       15343  0.0  1.7 1715476 17088 ?       Ssl  14:59   0:00 /snap/amazon-ssm-agent/14082/amazon-ssm-agent
+
+--------------- NETWORK INFORMATION ----------
+10.0.14.178 
+
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enX0             UP             10.0.14.178/20 metric 100 fe80::cff:cfff:fe7a:fae5/64 
+
+--------------- HEALTH SUMMARY ---------------
+Memory Usage : 39%
+Root Disk    : 42%
+Overall Status: HEALTHY
+
+================================================
+             END OF REPORT
+================================================

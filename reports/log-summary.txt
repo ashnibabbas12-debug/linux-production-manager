@@ -1,0 +1,6 @@
+========== LOG SUMMARY ==========
+Total Lines : 12
+INFO        : 5
+WARNING     : 2
+ERROR       : 5
+=================================
